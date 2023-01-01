@@ -15,11 +15,13 @@ function ActivationCurrentNavBarLink() {
                 // change to
                 // li.classList.remove("active link class name");
                 li.classList.add("activNavLink");
+                return;
     
             }
     
         }
     }
+    navBarLinksElements.children[0].classList.add("activNavLink");
     
 }
 window.addEventListener("load", ActivationCurrentNavBarLink());
