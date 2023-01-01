@@ -43,8 +43,8 @@ h6{
     margin: unset;
 }
 .unactiveNavLink{
-    @apply text-slate-400 hover:opacity-100;
+    @apply text-slate-400 hover:text-black lg:hover:text-white;
 }
 .activNavLink{
-    @apply text-white;
+    @apply text-black lg:text-white;
 }
